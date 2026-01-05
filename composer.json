@@ -1,5 +1,5 @@
 {
-    "name": "aly-icom/my-package",
+    "name": "aly-icom/icom-package",
     "description": "the pacakge will has a code of fcm token code and check update code for our icom projects",
     "type": "library",
     "license": "MIT",
