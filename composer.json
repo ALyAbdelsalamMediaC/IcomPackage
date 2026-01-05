@@ -23,5 +23,12 @@
         "psr-4": {
             "YourName\\MyPackage\\Tests\\": "tests/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AlyIcom\\MyPackage\\MyPackageServiceProvider"
+            ]
+        }
     }
 }
