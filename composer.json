@@ -1,0 +1,27 @@
+{
+    "name": "aly-icom/my-package",
+    "description": "the pacakge will has a code of fcm token code and check update code for our icom projects",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "AlyIcom\\MyPackage\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.2",
+        "illuminate/support": "^10.0",
+        "google/apiclient": "^2.15",
+        "kreait/firebase-php": "^7.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^8.0",
+        "phpunit/phpunit": "^10.0"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "YourName\\MyPackage\\Tests\\": "tests/"
+        }
+    }
+}
